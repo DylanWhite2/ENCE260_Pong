@@ -1,0 +1,34 @@
+---PONG---
+
+Dylan White    29861039
+Alex Tompkins  79004580
+* TEAM334
+7 Oct 2017
+
+---HOW TO BUILD---
+
+Reset both UCFK4s by pressing button S2.
+
+In terminal, navigate to this directory and run the following commands:
+
+make clean
+make program
+make program
+
+---HOW TO PLAY---
+
+A "PONG" welcome message will be shown on both displays.
+
+Press the navswitch in on each device to automatically assign player numbers - these will be displayed on the screen. The game cannot start until both players are assigned.
+
+Player 1 can then press the navswitch in to begin the first round. Players may now move their paddle up and down by pressing navswitch north or south as desired. The LED will light up to show the player that is serving.
+
+When ready, the server (player 1 to begin with) can serve the ball by pressing the navswitch in. Either player loses the game when the ball moves past their paddle (i.e. when they fail to deflect the ball). When the ball is active, the LED will light up to show the player who has the ball on their side.
+
+When a player loses, the round ends and displays the current scores (where YOU is the player, and OPP is the opponent). Either player can then begin the next round by pressing the navswitch in.
+
+The player serving alternates for each round (i.e. player 2 serves 2nd round, player 1 serves 3rd round and so on). 
+
+The first player to win 5 rounds wins the entire game, at which point the displays will show either "WINNER!" or "LOSER..." as appropriate.
+
+To play again, hold down button S3 and press S2 on both fun kits to reset to the start of the game.
